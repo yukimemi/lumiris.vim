@@ -4,14 +4,14 @@
 // Last Change : 2025/04/29 00:22:04.
 // =============================================================================
 
-import * as autocmd from "jsr:@denops/std@8.0.0/autocmd";
-import * as fn from "jsr:@denops/std@8.0.0/function";
-import * as helper from "jsr:@denops/std@8.0.0/helper";
-import * as nvimFn from "jsr:@denops/std@8.0.0/function/nvim";
-import * as op from "jsr:@denops/std@8.0.0/option";
-import * as vars from "jsr:@denops/std@8.0.0/variable";
+import * as autocmd from "jsr:@denops/std@8.1.0/autocmd";
+import * as fn from "jsr:@denops/std@8.1.0/function";
+import * as helper from "jsr:@denops/std@8.1.0/helper";
+import * as nvimFn from "jsr:@denops/std@8.1.0/function/nvim";
+import * as op from "jsr:@denops/std@8.1.0/option";
+import * as vars from "jsr:@denops/std@8.1.0/variable";
 import Chance from "npm:chance@1.1.13";
-import type { Denops } from "jsr:@denops/std@8.0.0";
+import type { Denops } from "jsr:@denops/std@8.1.0";
 import { basename, dirname, extname, join, normalize } from "jsr:@std/path@1.1.2";
 import { delay } from "jsr:@std/async@1.0.14";
 import { dir } from "jsr:@cross/dir@1.1.0";
