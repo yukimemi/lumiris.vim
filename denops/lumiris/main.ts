@@ -13,11 +13,11 @@ import * as vars from "jsr:@denops/std@8.1.0/variable";
 import Chance from "npm:chance@1.1.13";
 import type { Denops } from "jsr:@denops/std@8.1.0";
 import { basename, dirname, extname, join, normalize } from "jsr:@std/path@1.1.2";
-import { delay } from "jsr:@std/async@1.0.14";
+import { delay } from "jsr:@std/async@1.0.15";
 import { dir } from "jsr:@cross/dir@1.1.0";
 import { ensureDir } from "jsr:@std/fs@1.0.19";
 import { filterEntries, mapEntries } from "jsr:@std/collections@1.1.3";
-import { parse, stringify } from "jsr:@std/toml@1.0.10";
+import { parse, stringify } from "jsr:@std/toml@1.0.11";
 import { walk } from "jsr:@std/fs@1.0.19";
 import { z } from "npm:zod@4.1.12";
 
