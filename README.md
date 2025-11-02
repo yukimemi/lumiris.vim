@@ -206,4 +206,3 @@ nnoremap <space>rh <cmd>HateThisColorscheme<cr>
 Licensed under MIT License.
 
 Copyright (c) 2023 yukimemi
-

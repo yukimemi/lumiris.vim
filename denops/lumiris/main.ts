@@ -1,25 +1,25 @@
 // =============================================================================
 // File        : main.ts
 // Author      : yukimemi
-// Last Change : 2025/04/29 00:22:04.
+// Last Change : 2025/11/02 20:22:00.
 // =============================================================================
 
-import * as autocmd from "jsr:@denops/std@8.1.1/autocmd";
-import * as fn from "jsr:@denops/std@8.1.1/function";
-import * as helper from "jsr:@denops/std@8.1.1/helper";
-import * as nvimFn from "jsr:@denops/std@8.1.1/function/nvim";
-import * as op from "jsr:@denops/std@8.1.1/option";
-import * as vars from "jsr:@denops/std@8.1.1/variable";
-import Chance from "npm:chance@1.1.13";
-import type { Denops } from "jsr:@denops/std@8.1.1";
-import { basename, dirname, extname, join, normalize } from "jsr:@std/path@1.1.2";
-import { delay } from "jsr:@std/async@1.0.15";
-import { dir } from "jsr:@cross/dir@1.1.0";
-import { ensureDir } from "jsr:@std/fs@1.0.19";
-import { filterEntries, mapEntries } from "jsr:@std/collections@1.1.3";
-import { parse, stringify } from "jsr:@std/toml@1.0.11";
-import { walk } from "jsr:@std/fs@1.0.19";
-import { z } from "npm:zod@4.1.12";
+import * as autocmd from "@denops/std/autocmd";
+import * as fn from "@denops/std/function";
+import * as helper from "@denops/std/helper";
+import * as nvimFn from "@denops/std/function/nvim";
+import * as op from "@denops/std/option";
+import * as vars from "@denops/std/variable";
+import Chance from "chance";
+import type { Denops } from "@denops/std";
+import { basename, dirname, extname, join, normalize } from "@std/path";
+import { delay } from "@std/async";
+import { dir } from "@cross/dir";
+import { ensureDir } from "@std/fs";
+import { filterEntries, mapEntries } from "@std/collections";
+import { parse, stringify } from "@std/toml";
+import { walk } from "@std/fs";
+import { z } from "zod";
 
 const defaultPriority = 100;
 
