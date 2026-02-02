@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@cross/dir": "jsr:@cross/dir@^1.1.0",
+    "@cross/dir": "jsr:@cross/dir@^1.1.1",
     "@denops/std": "jsr:@denops/std@^8.2.0",
     "@std/assert": "jsr:@std/assert@^1.0.18",
     "@std/async": "jsr:@std/async@^1.1.1",
